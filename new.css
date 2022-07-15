@@ -1,0 +1,152 @@
+#header {
+    display: flex;
+    background: rgb(42, 150, 28);
+    height: 40px;
+    justify-items: centers;
+}
+
+.hi {
+    padding: 5px 10px 5px;
+    margin: 3px;
+    color: white;
+    text-decoration: solid;
+}
+
+.hi:hover {
+    color: black;
+    padding: 6px 12px 6px;
+}
+
+#drop {
+    position: relative;
+    display: inline-block;
+}
+
+.ddc {
+    display: none;
+    background-color: rgb(38, 197, 60);
+    text-decoration: none;
+}
+
+#drop:hover .ddc {
+    display: block;
+}
+
+#abc {
+    display: flex;
+    height: 570px;
+    background: url(img-2.jpg);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+}
+
+#button {
+    text-decoration: solid;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 10px 20px 10px;
+}
+
+#buttonl {
+    text-decoration: solid;
+    font-size: larger;
+}
+
+#button:hover {
+    background-color: rgb(5, 139, 23);
+}
+
+#button1:hover {
+    color: red;
+}
+
+.p1 {
+    color: white;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    background: rgb(182, 136, 9);
+    flex-direction: column;
+    text-align: center;
+    font-size: larger;
+}
+
+.container3 {
+    display: flex;
+    background-color: aliceblue;
+    flex-direction: column;
+    text-align: center;
+    font-size: larger;
+}
+
+.container4 {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    height: 100px;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.para3 {
+    background-color: rgb(182, 136, 9);
+    padding: 5px 10px 5px;
+}
+
+.para4 {
+    background-color: white;
+    padding: 5px 10px 5px;
+}
+
+.para5 {
+    background-color: rgb(182, 136, 9);
+    padding: 5px 10px 5px;
+}
+
+
+/* jdhfshdfj*/
+
+#butt {
+    display: inline-block;
+    position: relative;
+}
+
+.dds {
+    display: none;
+    background-color: rgb(38, 197, 60);
+    width: 200px;
+}
+
+.suu {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: solid;
+    color: black;
+    padding: 3px 6px 3px;
+}
+
+.suu:hover {
+    color: white;
+}
+
+#butt:hover .dds {
+    display: block;
+}
+
+#bts {
+    padding: 11px 10px 11px;
+}
+
+#bts:hover {
+    transform: rotate(90deg);
+}
